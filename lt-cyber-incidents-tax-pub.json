@@ -1,0 +1,121 @@
+{
+    "namespace": "nksc",
+    "description": "National LT Cyber Incidents taxonomy by NKIVP",
+    "version": 8,
+    "predicates": [
+        {
+            "value": "incidentas",
+            "expanded": "",
+            "description": "Incidentų klasifikavimas pagal NKIVP."
+        }
+    ],
+    "values": [
+        {
+            "predicate": "incidentas",
+            "entry": [
+                {
+                    "value": "nepageidaujamų laiškų ir (ar) klaidinančios ar žeidžiančios informacijos platinimas",
+                    "colour": "#2189BF",
+                    "expanded": " 18.1 Nepageidaujamų laiškų ir (ar) klaidinančios ar žeidžiančios informacijos platinimas (angl. abusive content, spam) ir (ar) tinklų informacinės sistemos veiklos trikdymas",
+                    "description": "Abusive content, spa,"
+                },
+                {
+                    "value": "pažangi kenkimo programinė įranga",
+                    "colour": "#A26283",
+                    "expanded": "18.2.1. Kenkimo programinė įranga (angl. malicious software / code). T.y. programinė įranga ar jos dalis, kuri padeda neteisėtai prisijungti prie tinklų ir informacinės sistemos, ją užvaldyti ir kontroliuoti, sutrikdyti ar pakeisti jos veikimą, sunaikinti, sugadinti, ištrinti ar pakeisti skaitmeninius duomenis, panaikinti ar apriboti galimybę jais naudotis ir neteisėtai pasisavinti ar kitaip panaudoti neviešus skaitmeninius duomenis tokios teisės neturintiems asmenims ir kuri identifikuota kaip pažangi kenkimo programinė įranga (angl. advanced persistent threat, APT)",
+                    "description": "Malicious code, Advanced persistent threat (APT)"
+                },
+                {
+                    "value": "duomenis šifruojantis ar naikinantis kodas",
+                    "colour": "#A26283",
+                    "expanded": "18.2.2. Kenkimo programinė įranga (angl. malicious software / code). T.y. programinė įranga ar jos dalis, kuri padeda neteisėtai prisijungti prie tinklų ir informacinės sistemos, ją užvaldyti ir kontroliuoti, sutrikdyti ar pakeisti jos veikimą, sunaikinti, sugadinti, ištrinti ar pakeisti skaitmeninius duomenis, panaikinti ar apriboti galimybę jais naudotis ir neteisėtai pasisavinti ar kitaip panaudoti neviešus skaitmeninius duomenis tokios teisės neturintiems asmenims ir kuri identifikuota kaip tinklų ir informacinės sistemos duomenis šifruojantis ir naikinantis (angl. wiper) ar išpirkos reikalaujantis programinis kodas (angl. ransomware)",
+                    "description": "Malicious code, Wiper, Ransomware"
+                },
+                {
+                    "value": "informacinės sistemos dalys, aktyviai kontroliuojamos įsibrovėlių",
+                    "colour": "#A26283",
+                    "expanded": "18.2.3. Kenkimo programinė įranga (angl. malicious software / code). T.y. programinė įranga ar jos dalis, kuri padeda neteisėtai prisijungti prie tinklų ir informacinės sistemos, ją užvaldyti ir kontroliuoti, sutrikdyti ar pakeisti jos veikimą, sunaikinti, sugadinti, ištrinti ar pakeisti skaitmeninius duomenis, panaikinti ar apriboti galimybę jais naudotis ir neteisėtai pasisavinti ar kitaip panaudoti neviešus skaitmeninius duomenis tokios teisės neturintiems asmenims ir kuri identifikuota kaip tinklų ir informacinės sistemos dalys, aktyviai kontroliuojamos įsibrovėlių",
+                    "description": "Malicious code, C2, botnet,Trojan"
+                },
+                {
+                    "value": "kenkimo programinės įrangos platinimas;",
+                    "colour": "#A26283",
+                    "expanded": "18.2.4. Kenkimo programinė įranga (angl. malicious software / code). T.y. programinė įranga ar jos dalis, kuri padeda neteisėtai prisijungti prie tinklų ir informacinės sistemos, ją užvaldyti ir kontroliuoti, sutrikdyti ar pakeisti jos veikimą, sunaikinti, sugadinti, ištrinti ar pakeisti skaitmeninius duomenis, panaikinti ar apriboti galimybę jais naudotis ir neteisėtai pasisavinti ar kitaip panaudoti neviešus skaitmeninius duomenis tokios teisės neturintiems asmenims ir kuri identifikuota  kaip kenkimo programinės įrangos platinimas",
+                    "description": "Malicious code, Malware distribution"
+                },
+                {
+                    "value": "informacijos rinkimas",
+                    "colour": "#651355",
+                    "expanded": "18.3 Informacijos rinkimas (angl. information gathering). T.y. žvalgyba ar kita įtartina veikla, manipuliavimas naudotojų emocijomis, psichologija, pastabumo stoka, pasinaudojimas technologiniu neišmanymu (angl. social engineering), siekiant stebėti ir rinkti informaciją, atrasti silpnąsias vietas, atlikti grėsmę keliančius veiksmus, apgavystės, siekiant įtikinti naudotoją atskleisti informaciją (angl. phishing) arba atlikti norimus veiksmus. Naudojami socialinės inžinerijos metodai, siekiant išvilioti prisijungimo prie tinklų ir informacinės sistemos ir (ar) kitą svarbią informaciją",
+                    "description": "Information gathering, Social engineering, Phishing"
+                },
+                {
+                    "value": "mėginimas įsilaužti išnaudojant vieną ar kelias nežinomas spragos",
+                    "colour": "#8C621D",
+                    "expanded": "18.4.1. Mėginimas įsilaužti (angl. intrusion attempts). Mėginimas įsilaužti arba sutrikdyti tinklų ir informacinės sistemos veikimą išnaudojant vieną ar kelias nežinomos spragas (angl. zero day)",
+                    "description": "Intrusion attempts with zero day"
+                },
+                {
+                    "value": "mėginimas įsilaužti vykdant tinklų ir informacinės sistemos žvalgybą",
+                    "colour": "#8C621D",
+                    "expanded": "18.4.2. mėginimas įsilaužti (angl. intrusion attempts). Mėginimas įsilaužti arba sutrikdyti tinklų ir informacinės sistemos veikimą išnaudojant žinomas spragas (angl. exploiting of known vulnerabilities), bandant parinkti slaptažodžius (angl. login attempts), kitą įsilaužimo būdą (angl. new attack signature), kaip pvz vykdant tinklų ir informacinės sistemos žvalgyba ar kita kenkimo veika (prievadų skenavimas, slaptažodžių parinkimas, kenkimo programinės įrangos platinimas ir kita)",
+                    "description": "Intrusion attempts, Bruteforce, Scanning"
+                },
+                {
+                    "value": "mėginimas įsilaužti išnaudojant žinomas ir viešai publikuotas spragas",
+                    "colour": "#8C621D",
+                    "expanded": "18.4.3. mėginimas įsilaužti (angl. intrusion attempts). Mėginimas įsilaužti arba sutrikdyti tinklų ir informacinės sistemos veikimą išnaudojant žinomas spragas (angl. exploiting of known vulnerabilities), bandant parinkti slaptažodžius (angl. login attempts), kitą įsilaužimo būdą (angl. new attack signature), kaip pvz išnaudojant žinomos ir viešai publikuotos spragos",
+                    "description": "Intrusion attempts with public exploit"
+                },
+                {
+                    "value": "veiksmai prieš tinklų ir informacinę sistemą ar jos saugumo priemones",
+                    "colour": "#38021a",
+                    "expanded": "18.5.1. įsilaužimas (angl. intrusions). Sėkmingas įsilaužimas ir (ar) neteisėtas tinklų ir informacinės sistemos, taikomosios programinės įrangos ar paslaugos naudojimas (angl. privileged account compromise, unprivileged account compromise, application compromise) ir veiksmai prieš tinklų ir informacinę sistemą ar jos saugumo priemones, informacijos pasisavinimas, naikinimas, tinklų ir informacinės sistemos ar jos dalies pažeidimas, sutrikdantis tinklų ir informacinės sistemos teikiamų paslaugų nepertraukiamą teikimą, galintis turėti įtakos tvarkomos informacijos ir teikiamų paslaugų patikimumui, iškreipti turinį ir mažinti tinklų ir informacinės sistemos naudotojų pasitikėjimą jais",
+                    "description": "Intrusions"
+                },
+                {
+                    "value": "gauta neteisėta prieiga",
+                    "colour": "#38021a",
+                    "expanded": "18.5.2 įsilaužimas (angl. intrusions). Sėkmingas įsilaužimas ir (ar) neteisėtas tinklų ir informacinės sistemos, taikomosios programinės įrangos ar paslaugos naudojimas (angl. privileged account compromise, unprivileged account compromise, application compromise) ir  gaunama neteisėta prieiga prie tinklų ir informacinės sistemos, taikomosios programinės įrangos ar paslaugos;",
+                    "description": "Intrusions, Account compromise"
+                },
+                {
+                    "value": "teikiamų paslaugų nutraukimas",
+                    "colour": "#E82E7B",
+                    "expanded": "18.6.1. paslaugų trikdymas, prieinamumo pažeidimai (angl. availability): veiksmai, kuriais trikdoma tinklų ir informacinės sistemos veikla, teikiamos paslaugos (angl. DoS, DDoS), tinklų ir informacinės sistemos ar jos dalies pažeidimas, sutrikdantis tinklų ir informacinės sistemos ir (ar) jos teikiamas paslaugas. Teikiamų paslaugų nutraukimas arba maksimalaus leistino paslaugos neveikimo laiko viršijimas ",
+                    "description": "Availability"
+                },
+                {
+                    "value": "teikiamų paslaugų nepertraukiamo teikimo trikdymas",
+                    "colour": "#E82E7B",
+                    "expanded": "18.6.2. paslaugų trikdymas, prieinamumo pažeidimai (angl. availability): veiksmai, kuriais trikdoma tinklų ir informacinės sistemos veikla, teikiamos paslaugos (angl. DoS, DDoS), tinklų ir informacinės sistemos ar jos dalies pažeidimas, sutrikdantis tinklų ir informacinės sistemos ir (ar) jos teikiamas paslaugas. Teikiamų paslaugų nepertraukiamo teikimo trikdymas, galintis turėti įtakos tvarkomos informacijos ir (ar) teikiamų paslaugų prieinamumui;",
+                    "description": "Availability"
+                },
+                {
+                    "value": "tiekimo grandinės atakos",
+                    "colour": "#802C09",
+                    "expanded": "18.7. tiekimo grandinės atakos (angl. supply chain attack): išnaudojama trečiųjų šalių, teikiančių paslaugas tinklų ir informacinės sistemos valdytojui ir (ar) tvarkytojui, infrastruktūra, siekiant įgauti ar turėti įtaką paslaugos gavėjo tinklų ir informacinės sistemos infrastruktūrai",
+                    "description": "Supply chain attack"
+                },
+                {
+                    "value": "informacijos turinio saugumo pažeidimai",
+                    "colour": "#802C09",
+                    "expanded": "18.8. informacijos turinio saugumo pažeidimai (angl. information content security): neteisėta prieiga prie informacijos, galinčios turėti įtakos tinklų ir informacinės sistemos veiklai ir (ar) teikiamoms paslaugoms, ar jos neteisėtas keitimas",
+                    "description": "Information content security"
+                },
+                {
+                    "value": "neteisėta veikla, sukčiavimas",
+                    "colour": "#802C09",
+                    "expanded": "18.9. neteisėta veikla, sukčiavimas (angl. fraud): vagystė, apgavystė, neteisėtas išteklių (angl. unauthorized use of resources), nelegalios programinės įrangos ar autorių teisių (angl. copyright) naudojimas, tapatybės klastojimo, apgavystės ir kiti panašaus pobūdžio incidentai",
+                    "description": "Fraud"
+                },
+                {
+                    "value": "kitos grėsmės ar priežastys",
+                    "colour": "#802C09",
+                    "expanded": "18.10.  kitos grėsmės ar priežastys",
+                    "description": "Other"
+                }
+            ]
+        }
+    ]
+}
