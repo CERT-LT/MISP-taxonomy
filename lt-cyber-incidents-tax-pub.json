@@ -38,7 +38,7 @@
                     "description": "Malicious code, C2, botnet,Trojan"
                 },
                 {
-                    "value": "kenkimo programinės įrangos platinimas;",
+                    "value": "kenkimo programinės įrangos platinimas",
                     "colour": "#A26283",
                     "expanded": "18.2.4. Kenkimo programinė įranga (angl. malicious software / code). T.y. programinė įranga ar jos dalis, kuri padeda neteisėtai prisijungti prie tinklų ir informacinės sistemos, ją užvaldyti ir kontroliuoti, sutrikdyti ar pakeisti jos veikimą, sunaikinti, sugadinti, ištrinti ar pakeisti skaitmeninius duomenis, panaikinti ar apriboti galimybę jais naudotis ir neteisėtai pasisavinti ar kitaip panaudoti neviešus skaitmeninius duomenis tokios teisės neturintiems asmenims ir kuri identifikuota  kaip kenkimo programinės įrangos platinimas",
                     "description": "Malicious code, Malware distribution"
